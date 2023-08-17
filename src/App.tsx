@@ -1,4 +1,5 @@
 import ReactGA from "react-ga4";
+import Form from "./components/form";
 
 ReactGA.initialize("G-NBHXTGFM1J");
 
@@ -19,6 +20,8 @@ function App() {
       <button className="bg-blue-500 p-1" onClick={sendClickEvent}>
         Click here
       </button>
+
+      <Form />
     </div>
   );
 }
