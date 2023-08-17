@@ -20,8 +20,11 @@ function App() {
       <button className="bg-blue-500 p-1" onClick={sendClickEvent}>
         Click here
       </button>
-
       <Form />
+
+      <button className="bg-blue-500 p-1 text-white font-mono font-semibold mt-3 px-2">
+        Sign up for the newsletter
+      </button>
     </div>
   );
 }
